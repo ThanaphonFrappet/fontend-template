@@ -1,0 +1,19 @@
+.rounded {
+  border-radius: .5rem;
+
+  & .q-field__control {
+    border-radius: .5rem !important;
+  }
+}
+
+.no-border.q-field--outlined .q-field__control {
+
+  &::before,
+  &::after {
+    border: transparent;
+  }
+}
+
+.btn-gradient-main {
+  background: linear-gradient(70deg, #dc2f3d 20%, #305089 80%)
+}
